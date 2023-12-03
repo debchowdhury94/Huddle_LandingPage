@@ -28,7 +28,7 @@ export default function Header() {
             </Button>
           </div>
 
-          <Image src="/images/illustration-mockups.svg" alt="" />
+          <Image src={require("../images/illustration-mockups.svg")} alt="" />
         </Flex>
       </StyledContainer>
     </StyledHeader>

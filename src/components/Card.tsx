@@ -16,7 +16,7 @@ export default function Card({item:{ id, title, body, image }}: itemProp) {
       </div>
 
       <div>
-        <img src={`/images/${image}`} alt="" />
+        <img src={require(`../images/${image}`)} alt="" />
       </div>
     </StyledCard>
   );
