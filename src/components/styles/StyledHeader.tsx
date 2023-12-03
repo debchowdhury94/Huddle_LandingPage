@@ -6,7 +6,7 @@ export const StyledHeader = styled.div`
 `
 export const Nav = styled.nav`
   display: flex;
-  alighn-items: center;
+  align-items: center;
   justify-content: space-between;
   margin-bottom: 40px;
 `

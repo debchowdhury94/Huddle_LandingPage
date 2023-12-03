@@ -2,7 +2,7 @@ import { styled } from "styled-components";
 
 export const Flex = styled.div`
     display: flex;
-    aligh-items: center;
+    align-items: center;
 
     & > div,
     & > ul {
